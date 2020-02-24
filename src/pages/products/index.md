@@ -1,6 +1,5 @@
 ---
-templateKey: 'product-page'
-path: /products
+templateKey: product-page
 title: Our Coffee
 image: /img/jumbotron.jpg
 heading: Great coffee with a conscience
@@ -69,9 +68,11 @@ testimonials:
     quote: >-
       Kaldi is the place to go if you want the best quality coffee. I love their
       stance on empowering farmers and transparency.
+  - author: asdasd
+    quote: asasda
 full_image: /img/products-full-width.jpg
 pricing:
-  heading: Monthly subscriptions
+  heading: Monthly subscriptions 123
   description: >-
     We make it easy to make great coffee a part of your life. Choose one of our
     monthly subscription plans to receive great coffee at your doorstep each
@@ -96,6 +97,7 @@ pricing:
         - Whatever you need
         - Green or roasted beans
         - Unlimited varieties
-      plan: Custom
+      plan: Custom 123
       price: '??'
 ---
+

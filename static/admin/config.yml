@@ -243,3 +243,34 @@ collections:
                   },
                 ],
             }
+      - file: "src/pages/board/index.md"
+        label: "Bestyrelse"
+        name: "board"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "board-page",
+            }
+          - {
+              label: Intro,
+              name: intro,
+              widget: object,
+              fields:
+                [
+                  { label: "Titel", name: "title", widget: "string" },
+                  { label: "Beskrivelse", name: "description", widget: "text" },
+                ],
+            }
+          - {
+              label: "Medlemmer",
+              name: "boardmembers",
+              widget: "list",
+              fields:
+                [
+                  { label: "Image", name: "image", widget: "image" },
+                  { label: "Label", name: "label", widget: "string" },
+                  { label: "Navn", name: "name", widget: "string" },
+                ],
+            }

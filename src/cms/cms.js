@@ -7,7 +7,7 @@ import IndexPagePreview from "./preview-templates/IndexPagePreview";
 import BoardPagePreview from "./preview-templates/BoardPagePreview";
 
 CMS.registerPreviewTemplate("index", IndexPagePreview);
-CMS.registerPreviewTemplate("index", BoardPagePreview);
+CMS.registerPreviewTemplate("board", BoardPagePreview);
 CMS.registerPreviewTemplate("about", AboutPagePreview);
 CMS.registerPreviewTemplate("products", ProductPagePreview);
 CMS.registerPreviewTemplate("blog", BlogPostPreview);

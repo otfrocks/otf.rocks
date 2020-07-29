@@ -3,18 +3,15 @@ import PropTypes from "prop-types";
 import { BoardPageTemplate } from "../../templates/board-page";
 
 const BoardPagePreview = ({ entry, getAsset }) => {
-  const data = entry.getIn(["data"]).toJS();
+  const data = entry.getIn(["data", "title"]);
+  console.log("DATA: ", data);
 
   if (data) {
     return (
       <BoardPageTemplate
-        image={getAsset(data.image)}
-        title={data.title}
-        heading={data.heading}
-        subheading={data.subheading}
-        description={data.description}
-        intro={data.intro || { blurbs: [] }}
-        mainpitch={data.mainpitch || {}}
+        title={data.intro.title}
+        description={data.intro.description}
+        boardmembers={data.boardmembers}
       />
     );
   } else {

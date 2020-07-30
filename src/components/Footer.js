@@ -9,8 +9,8 @@ import vimeo from "../img/social/vimeo.svg";
 
 const Footer = class extends React.Component {
   async componentDidMount() {
-    const response = await fetch("/.netlify/functions/hello");
-    const json = await response.json();
+    // const response = await fetch("/.netlify/functions/hello");
+    // const json = await response.json();
   }
 
   render() {

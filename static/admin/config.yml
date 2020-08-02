@@ -13,7 +13,7 @@ public_folder: /img
 
 media_library:
   name: cloudinary
-  output_filename_only: true
+  output_filename_only: false
   config:
     cloud_name: otfrocks
     api_key: 395236246288443

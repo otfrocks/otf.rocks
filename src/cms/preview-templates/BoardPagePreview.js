@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { BoardPageTemplate } from "../../templates/board-page";
 
 const BoardPagePreview = ({ entry, getAsset }) => {
-  const data = entry.getIn(["data", "title"]);
+  const data = entry.getIn(["data"]).toJS();
   console.log("DATA: ", data);
 
   if (data) {

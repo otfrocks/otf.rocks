@@ -68,13 +68,7 @@ export const pageQuery = graphql`
         boardmembers {
           label
           name
-          image {
-            childImageSharp {
-              fluid(maxWidth: 250, quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
+          image
         }
       }
     }

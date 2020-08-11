@@ -80,9 +80,6 @@ exports.onCreateNode = ({
   createContentDigest,
   reporter,
 }) => {
-  if (node.internal.type == "post") {
-    console.log("######\n", node);
-  }
   const { createNodeField, createNode } = actions;
   fmImagesToRelative(node); // convert image paths for gatsby images
 

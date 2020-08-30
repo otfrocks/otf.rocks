@@ -68,7 +68,6 @@ export const pageQuery = graphql`
         boardmembers {
           label
           name
-          image
         }
       }
     }

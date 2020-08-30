@@ -152,12 +152,10 @@ export const productPageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
-        image
         heading
         description
         intro {
           blurbs {
-            image
             text
           }
           heading
@@ -166,24 +164,11 @@ export const productPageQuery = graphql`
         main {
           heading
           description
-          image1 {
-            alt
-            image
-          }
-          image2 {
-            alt
-            image
-          }
-          image3 {
-            alt
-            image
-          }
         }
         testimonials {
           author
           quote
         }
-        full_image
         pricing {
           heading
           description

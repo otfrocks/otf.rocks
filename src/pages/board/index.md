@@ -13,7 +13,7 @@ intro:
     i et bestyrelsesmøde. Beslutninger træffes ved simpelt flertal ved
     håndsoprækning. I tilfælde af stemmelighed, er fomandens stemme afgørende.
 boardmembers:
-  - image: https://res.cloudinary.com/otfrocks/image/upload/v1596402694/products-full-width.jpg
+  - image: https://res.cloudinary.com/otfrocks/image/upload/v1597160321/pexels-pixabay-247431_dy0qfk.jpg
     label: Formand
     name: Hanna Weigelin
   - image: /img/placeholder.png

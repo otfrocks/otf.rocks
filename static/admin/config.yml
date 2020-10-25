@@ -250,7 +250,7 @@ collections:
                   },
                 ],
             }
-      - file: "src/pages/bestyrelse/index.md"
+      - file: "src/pages/board/index.md"
         label: "Bestyrelse"
         name: "board"
         fields:

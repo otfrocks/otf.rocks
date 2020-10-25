@@ -10,6 +10,7 @@ export const BoardPageTemplate = ({ title, description, boardmembers }) => (
   <div>
     <h1>{title}</h1>
     <p>{description}</p>
+    <pre>{JSON.stringify(boardmembers, null, 2)}</pre>
   </div>
 );
 
@@ -33,6 +34,7 @@ BoardPageTemplate.propTypes = {
 };
 
 const BoardPage = ({ data }) => {
+  console.log(data);
   const { frontmatter } = data.markdownRemark;
   console.log(frontmatter);
 

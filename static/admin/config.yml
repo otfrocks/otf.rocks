@@ -13,7 +13,7 @@ public_folder: /img
 
 media_library:
   name: cloudinary
-  output_filename_only: true
+  output_filename_only: false
   config:
     cloud_name: otfrocks
     api_key: 395236246288443
@@ -277,7 +277,12 @@ collections:
               fields:
                 [
                   { label: "Image", name: "image", widget: "image" },
-                  { label: "Label", name: "label", widget: "string" },
+                  {
+                    label: "Label",
+                    name: "label",
+                    widget: "select",
+                    options: ["Formand", "Medlem", Kasserer],
+                  },
                   { label: "Navn", name: "name", widget: "string" },
                 ],
             }

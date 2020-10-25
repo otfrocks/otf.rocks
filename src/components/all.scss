@@ -7,12 +7,11 @@
   --dark-gray: #e4e4e4;
 
   /* Font/text values */
-  --otf-font-family-helveticaneue: HelveticaNeue;
-  --otf-font-family-lato: Lato;
+  --otf-font-family-lato: "Lato";
   --otf-font-style-normal: normal;
-  --otf-font-weight-bold: bold;
-  --otf-font-weight-medium: medium;
-  --otf-font-weight-normal: normal;
+  --otf-font-weight-bold: 700;
+  --otf-font-weight-medium: 300;
+  --otf-font-weight-normal: 400;
   --otf-font-size-18: 18px;
   --otf-font-size-20: 20px;
   --otf-font-size-22: 22px;
@@ -28,7 +27,7 @@
 
 /* Character Styles */
 .heading-3 {
-  font-family: var(--otf-font-family-helveticaneue);
+  font-family: var(--otf-font-family-lato);
   font-style: var(--otf-font-style-normal);
   font-weight: var(--otf-font-weight-bold);
   font-size: var(--otf-font-size-22);
@@ -37,7 +36,7 @@
   color: var(--otf-color-414141);
 }
 .heading-2 {
-  font-family: var(--otf-font-family-helveticaneue);
+  font-family: var(--otf-font-family-lato);
   font-style: var(--otf-font-style-normal);
   font-weight: var(--otf-font-weight-bold);
   font-size: var(--otf-font-size-26);
@@ -46,7 +45,7 @@
   color: var(--otf-color-414141);
 }
 .heading-1 {
-  font-family: var(--otf-font-family-helveticaneue);
+  font-family: var(--otf-font-family-lato);
   font-style: var(--otf-font-style-normal);
   font-weight: var(--otf-font-weight-bold);
   font-size: var(--otf-font-size-36);
@@ -55,7 +54,7 @@
   color: var(--otf-color-414141);
 }
 .link-text {
-  font-family: var(--otf-font-family-helveticaneue);
+  font-family: var(--otf-font-family-lato);
   font-style: var(--otf-font-style-normal);
   font-weight: var(--otf-font-weight-medium);
   font-size: var(--otf-font-size-20);

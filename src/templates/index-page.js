@@ -5,6 +5,7 @@ import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
+import { HTMLContent } from "../components/Content";
 
 export const IndexPageTemplate = ({
   title,
@@ -14,11 +15,21 @@ export const IndexPageTemplate = ({
   suggestions,
 }) => (
   <div>
-    {JSON.stringify(
-      { title, eventspitch, intro, sommerparty, suggestions },
-      null,
-      2
-    )}
+    <HTMLContent className="heading-1" content={title} />
+    <HTMLContent className="heading-2" content={intro.subheading} />
+    <HTMLContent className="body-text" content={intro.description} />
+    
+    <HTMLContent className="heading-2" content={eventspitch.subheading} />
+    <HTMLContent className="body-text" content={eventspitch.description} />
+
+    <HTMLContent className="heading-2" content={sommerparty.subheading} />
+    <HTMLContent className="body-text" content={sommerparty.description} />
+
+    <hr />
+
+    <HTMLContent className="heading-1" content={suggestions.subheading} />
+    <HTMLContent className="body-text" content={suggestions.description} />
+
   </div>
 );
 

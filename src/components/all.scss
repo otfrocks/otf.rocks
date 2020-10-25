@@ -1,2 +1,74 @@
 :root {
+  /* Colors: */
+  --off-white: #fefefe;
+  --nav-color: #414141;
+  --light-gray: #f5f5f5;
+  --cta-color: #f69250;
+  --dark-gray: #e4e4e4;
+
+  /* Font/text values */
+  --otf-font-family-helveticaneue: HelveticaNeue;
+  --otf-font-family-lato: Lato;
+  --otf-font-style-normal: normal;
+  --otf-font-weight-bold: bold;
+  --otf-font-weight-medium: medium;
+  --otf-font-weight-normal: normal;
+  --otf-font-size-18: 18px;
+  --otf-font-size-20: 20px;
+  --otf-font-size-22: 22px;
+  --otf-font-size-26: 26px;
+  --otf-font-size-36: 36px;
+  --otf-character-spacing-0: 0px;
+  --otf-line-spacing-23: 23px;
+  --otf-line-spacing-25: 25px;
+  --otf-line-spacing-26: 26px;
+  --otf-line-spacing-31: 31px;
+  --otf-line-spacing-43: 43px;
+}
+
+/* Character Styles */
+.heading-3 {
+  font-family: var(--otf-font-family-helveticaneue);
+  font-style: var(--otf-font-style-normal);
+  font-weight: var(--otf-font-weight-bold);
+  font-size: var(--otf-font-size-22);
+  line-height: var(--otf-line-spacing-26);
+  letter-spacing: var(--otf-character-spacing-0);
+  color: var(--otf-color-414141);
+}
+.heading-2 {
+  font-family: var(--otf-font-family-helveticaneue);
+  font-style: var(--otf-font-style-normal);
+  font-weight: var(--otf-font-weight-bold);
+  font-size: var(--otf-font-size-26);
+  line-height: var(--otf-line-spacing-31);
+  letter-spacing: var(--otf-character-spacing-0);
+  color: var(--otf-color-414141);
+}
+.heading-1 {
+  font-family: var(--otf-font-family-helveticaneue);
+  font-style: var(--otf-font-style-normal);
+  font-weight: var(--otf-font-weight-bold);
+  font-size: var(--otf-font-size-36);
+  line-height: var(--otf-line-spacing-43);
+  letter-spacing: var(--otf-character-spacing-0);
+  color: var(--otf-color-414141);
+}
+.link-text {
+  font-family: var(--otf-font-family-helveticaneue);
+  font-style: var(--otf-font-style-normal);
+  font-weight: var(--otf-font-weight-medium);
+  font-size: var(--otf-font-size-20);
+  line-height: var(--otf-line-spacing-23);
+  letter-spacing: var(--otf-character-spacing-0);
+  color: var(--otf-color-fefefe);
+}
+.body-text {
+  font-family: var(--otf-font-family-lato);
+  font-style: var(--otf-font-style-normal);
+  font-weight: var(--otf-font-weight-normal);
+  font-size: var(--otf-font-size-18);
+  line-height: var(--otf-line-spacing-25);
+  letter-spacing: var(--otf-character-spacing-0);
+  color: var(--otf-color-414141);
 }
